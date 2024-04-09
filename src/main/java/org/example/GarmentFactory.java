@@ -7,6 +7,7 @@ public class GarmentFactory {
    // Method to create garment based on type and design
    public Garment createGarment(String type, String design){
       // Check the type of garment requested
+      //equalsIgnoreCase to ignore the case sensitivity. just in case you use top instead of Top
       if (type.equalsIgnoreCase("Top")){
          return new Top(design);
       }

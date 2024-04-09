@@ -62,3 +62,10 @@ public class GarmentSimulator {
         System.out.println();
     }
 }
+/*
+The code should help display different types of clothing like tops, pants, and shoes. There is a class called
+GarmentFactory that checks whether the cloth is a top, pant, or shoe. The code is simple and keeps parts organized. It
+has different methods for casual, professional, and party clothing. It is not case-sensitive when called,so it shouldn't
+be too much of a problem when calling the top, pant, or shoe. Overall, this should, in theory, help manage clothing
+inventory.
+ */
